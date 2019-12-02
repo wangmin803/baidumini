@@ -1,0 +1,15 @@
+<view class="content">
+  <view class="top">
+    <view class="top-info">
+      <view class="toin-name">{{id}}</view>
+      <view class="toin-info">{{title}}</view>
+    </view>
+  </view>
+  <view class="clear"></view>
+  <view class="info">
+    <view class="in-title">{{id}}</view>
+    <view class="in-info">{{id}}</view>
+  </view>
+  <rich-text></rich-text>
+  <view class="clear"></view>
+</view>

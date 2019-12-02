@@ -1,0 +1,62 @@
+{
+    "appid": "15510259",
+    "compilation-args": {
+        "common": {},
+        "options": [],
+        "selected": -2
+    },
+    "editor": {
+        "curPath": "C:\\Users\\mayn\\Desktop\\66\\a\\app.json",
+        "expands": [],
+        "markdownUploadTimeMap": {},
+        "paths": [
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\index\\index.swan",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\app.js",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\app.json",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\gxrd\\gxrd.css",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\gxrd\\gxrd.js",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\gxrd\\gxrd.swan",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\project.config.json",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\component\\component-scroll\\index.swan",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\component\\component-scroll\\index.json",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\component\\component-scroll\\index.js",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\component\\component-scroll\\index.css",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\gxrdlist\\gxrdlist.css",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\gxrdlist\\gxrdlist.js",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\gxrdlist\\gxrdlist.json",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\gxrdlist\\gxrdlist.swan",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\log\\error.json"
+        ],
+        "recentlyFiles": [
+            "C:\\Users\\mayn\\Desktop\\66\\a\\app.json",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\gxrdlist\\gxrdlist.js",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\gxrdlist\\gxrdlist.css",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\gxrdlist\\gxrdlist.json",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\gxrdlist\\gxrdlist.swan",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\log\\error.json",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\app.js",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\component\\component-scroll\\index.css",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\component\\component-scroll\\index.swan",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\component\\component-scroll\\index.json",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\component\\component-scroll\\index.js",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\pages\\gxrd\\gxrd.css",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\config",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\description",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\HEAD",
+            "C:\\Users\\mayn\\Desktop\\66\\a\\project.config.json"
+        ]
+    },
+    "host": "baiduboxapp",
+    "publish": {
+        "version": "1.0.2.0"
+    },
+    "setting": {
+        "urlCheck": true
+    },
+    "swan": {
+        "baiduboxapp": {
+            "swanJsVersion": "3.120.2",
+            "extensionJsVersion": "1.7.2"
+        }
+    }
+}
