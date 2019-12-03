@@ -12,21 +12,26 @@ Page({
     list: []
   },
   a:0,
-  onLoad: function () {},
+  type:"",
+  onLoad: function (options) {
+      console.log(options.type);
+      type=options.type;
+  },
+  
   onShow() {
     this.getList();
+    app.globalData.userInfo="list";
   },
   onUnload: function () {
-    	swan.redirectTo({
-      		url:  '/pages/gxrd/gxrd'
-    	})
+       
+    	swan.navigateTo({
+            url: '/pages/gxrd/gxrd'
+        });
   },
   onHide:function () {
-      console.log(a);
+   
       if(a==1){
-     
       }else{
-          console.log("xxxxxx");
           swan.switchTab({
               url: '/pages/gxrd/gxrd'
           });
@@ -84,15 +89,13 @@ a=1;
 
     let d = json_util.mapToJson(util.tokenAndKo(map));
   
-    var url1 = 'https://www.jzn360.com/Manage/News/table.do?limit=12&channelCode=gqrd&page='+this.data.page; 
+     var url1 = 'https://www.jzn360.com/Manage/News/table.do?limit=12&channelCode='+type+'&page='+this.data.page; 
      var that= this;
-       let addList ="";
-       let newList ="";
+     let addList ="";
+     let newList ="";
     network_util._post(url1, d, function (res) {
-       
     addList= res.data.data;
     newList = that.data.list.concat(addList);
-
   if (addList.length < that.data.size) {
           that.setData({
             allloaded: true
@@ -113,7 +116,6 @@ a=1;
 
         //let addList = resData.slice(this.data.size * this.data.page, (this.data.page + 1) * this.data.size);
   // let newList = this.data.list.concat(addList);
-      
       
         resolve();
       }, 500);

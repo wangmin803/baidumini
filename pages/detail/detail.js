@@ -4,11 +4,10 @@ var network_util = require('../../utils/network_util.js');
 var json_util = require('../../utils/json_util.js');
 Page({
     data: {
-
-   id: "",
-    title:  ""
- 
-
+    id: "",
+    title:  "",
+    publishDateString:  "",
+    newsContent:  ""
   }, 
 
   /**
@@ -18,33 +17,21 @@ Page({
    */
 
   onLoad: function (options) {
-console.log("sdxxxxxxxxxxxxx"+options);
+
     let id=options.id;    
-
-
- let map = new Map();
-console.log("sdxxxxxxxxxxxxx"+id);
-map.set('id',id);
+    let map = new Map();
+    map.set('id',id);
     let d = json_util.mapToJson(util.tokenAndKo(map));
-
-
-
-
-    var url1 = 'https://www.fastmock.site/mock/e78cc12628309ff433a66b8b317cd477/qq/detail'; 
-     var that= this;
-
+    var url1 = 'https://www.jzn360.com/getnews.do?id='+id; 
+    var that= this;
     network_util._post(url1, d, function (res) {
-
-  
     that.setData({      
-
     //把引入的数据根据下标对应放到detailObj中
-
-      id:res.data.id,
-title:res.data.title
-
+      id:res.data.data.id,
+      title:res.data.data.newsName,
+      publishDateString:  res.data.data.publishDateString.substring(0,12),
+      newsContent: res.data.data.newsContent,
     })
-
 
     }, function (res) {
       console.log(res);

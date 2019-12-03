@@ -34,8 +34,8 @@ Page({
     onShareAppMessage: function () {
         // 用户点击右上角转发
     },
-      goMoredGxrd: function () {
-    app.goMoreGxrd();
+    goMoredGxrd: function () {
+        app.goMoreList('gxrd');
   }
 
 });

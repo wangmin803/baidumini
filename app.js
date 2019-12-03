@@ -1,6 +1,9 @@
 //app.js
 App({
-  onLaunch: function () {},
+    globalData: {
+  userInfo: null,
+},
+  onLaunch: function () {   },
   onShow: function () {
 
        swan.setPageInfo({
@@ -11,8 +14,10 @@ App({
      }
     
    );
+
    
     },
+
   goContactus: function () {
     swan.setStorage({
       key: "contactus_bottom",
@@ -60,10 +65,18 @@ App({
       
   },
 
-        goMoreGxrd: function () {
-       swan.redirectTo({
-           url: '../gxrdlist/gxrdlist'
-       });
+        goMoreList: function (type) {
+            if(type=='gxrd'){
+               swan.navigateTo({
+                        url: '../gxrdlist/gxrdlist?type=gqrd'
+                    });``
+            }
+              if(type=='sbzc'){
+               swan.navigateTo({
+                        url: '../gxrdlist/gxrdlist?type=sbzc'
+                    });``
+            }
+       
   }
 
   

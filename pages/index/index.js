@@ -15,10 +15,16 @@ Page({
      }
     
    );
-   
+     
     },
   goContactus: function () {
     app.goContactus();
+  },
+  onHide: function () {
+
+  },
+  onUnload: function () {
+
   },
       goSbzc: function () {
     app.goSbzc();

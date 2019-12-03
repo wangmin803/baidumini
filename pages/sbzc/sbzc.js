@@ -1,3 +1,4 @@
+  const app = getApp();
 Page({
     data: {
 
@@ -6,6 +7,9 @@ Page({
         // 监听页面加载的生命周期函数
     },
     onReady: function() {
+        // 监听页面初次渲染完成的生命周期函数
+    },
+    onHide: function() {
         // 监听页面初次渲染完成的生命周期函数
     },
     onShow: function() {
@@ -18,6 +22,10 @@ Page({
     
     });
     },
+    
+    goMoredSbzc: function () {
+    app.goMoreList('sbzc');
+  },
     onHide: function() {
         // 监听页面隐藏的生命周期函数
     },
