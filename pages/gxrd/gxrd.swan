@@ -5,7 +5,7 @@
   <view class="weui-panel weui-panel_access">
             <view class="weui-panel__hd">高新技术企业认定</view>
             <view class="weui-panel__bd">
-                <view bindtap='goGxrd'   class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">  
+                <view   class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">  
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                    <image class="weui-media-box__thumb" src="../../assets/imgs/bbs.png" />
                     </view>
@@ -17,7 +17,7 @@
                 </view>
 
      <view class="weui-panel__bd">
-                <view  bindtap='goGxrd'  class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                <view  class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                      <image class="weui-media-box__thumb" src="../../assets/imgs/store.png" />
                     </view>
@@ -28,7 +28,7 @@
                 </view>
                 </view>
      <view class="weui-panel__bd">
-                <view  bindtap='goGxrd'  class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                <view    class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                       <image class="weui-media-box__thumb" src="../../assets/imgs/zxjy.png" />
                     </view>

@@ -3,7 +3,7 @@
 <view class="weui-panel weui-panel_access" style="margin-top:0px;">
             <view class="weui-panel__hd">商标注册</view>
             <view class="weui-panel__bd">
-            <view bindtap='goSbzc' class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view  class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                         <image class="weui-media-box__thumb" src="../../assets/imgs/xcx.jpg" />
                     </view>
@@ -12,7 +12,7 @@
                         <view class="weui-media-box__desc">正规的商标局备案机构。</view>
                     </view>
                 </view>
-         <view bindtap='goSbzc' class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+         <view  class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                      <image class="weui-media-box__thumb" src="../../assets/imgs/fwh.jpg" />
                     </view>
@@ -22,7 +22,7 @@
                     </view>
              </view>
               
-                  <view bindtap='goSbzc' class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                  <view class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                         <image class="weui-media-box__thumb" src="../../assets/imgs/qyh.jpg" />
                     </view>
@@ -39,7 +39,7 @@
   <view class="weui-panel weui-panel_access">
             <view class="weui-panel__hd">商标注册需要的材料</view>
             <view class="weui-panel__bd">
-                 <view bindtap='goSbzc' class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                 <view class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                    <image class="weui-media-box__thumb" src="../../assets/imgs/bbs.png" />
                     </view>
@@ -51,7 +51,7 @@
                 </view>
 
      <view class="weui-panel__bd">
-                <view bindtap='goSbzc' class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                <view  class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                      <image class="weui-media-box__thumb" src="../../assets/imgs/store.png" />
                     </view>
@@ -62,7 +62,7 @@
                  </view>
                 </view>
      <view class="weui-panel__bd">
-               <view bindtap='goSbzc' class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+               <view  class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                       <image class="weui-media-box__thumb" src="../../assets/imgs/zxjy.png" />
                     </view>
@@ -75,7 +75,7 @@
 
 
                      <view class="weui-panel__bd">
-                <view bindtap='goSbzc' class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                <view class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                       <image class="weui-media-box__thumb" src="../../assets/imgs/zxjy.png" />
                     </view>

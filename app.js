@@ -19,48 +19,30 @@ App({
     },
 
   goContactus: function () {
-    swan.setStorage({
-      key: "contactus_bottom",
-      data: "1",
-      success: function () {
-        swan.switchTab({
+     swan.switchTab({
           url: '../contactus/contactus'
         });
-      }
-    });
 
   },
 
   goSbzc: function () {
-    swan.setStorage({
-      key: "sbzc_bottom",
-      data: "2",
-      success: function () {
-        swan.switchTab({
+       swan.switchTab({
           url: '../sbzc/sbzc'
         });
-      }
-    });
   },
 
 
    goGxrd: function () {
-    swan.setStorage({
-      key: "gxrd_bottom",
-      data: "3",
-      success: function () {
-        swan.switchTab({
+      swan.switchTab({
           url: '../gxrd/gxrd'
         });
-      }
-    });
   },
-      goDetail: function (id) {
+      goDetail: function (id,tname) {
 
 
 
          swan.navigateTo({
-        url: '../detail/detail?id='+id
+        url: '../detail/detail?id='+id+'&tname='+tname
      });
       
   },

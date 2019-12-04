@@ -48,7 +48,7 @@ Page({
   },
   
       goDetail: function (e) {
-  app.goDetail(e.currentTarget.dataset.id);
+  app.goDetail(e.currentTarget.dataset.id,e.currentTarget.dataset.tname);
 a=1;
 
   },
