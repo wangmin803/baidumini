@@ -9,13 +9,10 @@
         "curPath": "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.swan",
         "expands": [
             "D:\\baidumini\\pages",
+            "D:\\baidumini\\pages\\gxrdlist",
             "D:\\baidumini\\HEAD",
             "D:\\baidumini\\description",
-            "D:\\baidumini\\image",
-            "D:\\baidumini\\pages\\sbzc",
-            "D:\\baidumini\\pages\\gxrdlist",
-            "D:\\baidumini\\component",
-            "D:\\baidumini\\component\\component-scroll"
+            "D:\\baidumini\\pages\\index"
         ],
         "markdownUploadTimeMap": {},
         "paths": [
@@ -51,34 +48,45 @@
             "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.swan",
             "D:\\baidumini\\component\\component-scroll\\index.swan",
             "D:\\baidumini\\pages\\sbzc\\sbzc.js",
-            "D:\\baidumini\\component\\component-scroll\\index.js"
+            "D:\\baidumini\\component\\component-scroll\\index.js",
+            "D:\\baidumini\\pages\\contactus\\contactus.swan",
+            "D:\\baidumini\\pages\\contactus\\contactus.js",
+            "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.json",
+            "D:\\baidumini\\pages\\index\\index.swan",
+            "D:\\baidumini\\pages\\index\\index.css",
+            "D:\\baidumini\\utils\\network_util.js",
+            "D:\\baidumini\\component\\component-scroll\\index.json",
+            "D:\\baidumini\\component\\component-scroll\\index.css"
         ],
         "recentlyFiles": [
             "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.swan",
-            "D:\\baidumini\\component\\component-scroll\\index.js",
-            "D:\\baidumini\\component\\component-scroll\\index.swan",
-            "D:\\baidumini\\pages\\sbzc\\sbzc.js",
-            "D:\\baidumini\\pages\\sbzc\\sbzc.css",
-            "D:\\baidumini\\pages\\sbzc\\sbzc.json",
-            "D:\\baidumini\\pages\\sbzc\\sbzc.swan",
-            "D:\\baidumini\\pages\\detail\\detail.swan",
-            "D:\\baidumini\\component\\component-scroll\\index.css",
-            "D:\\baidumini\\component\\component-scroll\\index.json",
-            "D:\\baidumini\\pages\\detail\\detail.json",
-            "D:\\baidumini\\pages\\detail\\detail.js",
-            "D:\\baidumini\\pages\\gxrd\\gxrd.swan",
-            "D:\\baidumini\\app.json",
-            "D:\\baidumini\\app.js",
             "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.js",
             "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.json",
-            "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.css",
-            "D:\\baidumini\\pages\\gxrd\\gxrd.json",
-            "D:\\baidumini\\pages\\gxrd\\gxrd.js"
+            "D:\\baidumini\\component\\component-scroll\\index.swan",
+            "D:\\baidumini\\component\\component-scroll\\index.css",
+            "D:\\baidumini\\component\\component-scroll\\index.js",
+            "D:\\baidumini\\component\\component-scroll\\index.json",
+            "D:\\baidumini\\app.js",
+            "D:\\baidumini\\utils\\network_util.js",
+            "D:\\baidumini\\pages\\index\\index.js",
+            "D:\\baidumini\\app.json",
+            "D:\\baidumini\\pages\\index\\index.css",
+            "D:\\baidumini\\pages\\gxrd\\gxrd.js",
+            "D:\\baidumini\\pages\\index\\index.swan",
+            "D:\\baidumini\\pages\\detail\\detail.swan",
+            "D:\\baidumini\\pages\\detail\\detail.js",
+            "D:\\baidumini\\pages\\detail\\detail.json",
+            "D:\\baidumini\\pages\\contactus\\contactus.js",
+            "D:\\baidumini\\pages\\contactus\\contactus.css",
+            "D:\\baidumini\\pages\\contactus\\contactus.swan"
         ]
     },
     "host": "baiduboxapp",
+    "preview": {
+        "packageId": 341038
+    },
     "publish": {
-        "version": "1.0.8.0"
+        "version": "1.0.18.0"
     },
     "setting": {
         "urlCheck": true

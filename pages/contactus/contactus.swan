@@ -10,13 +10,7 @@
     <view class="callbtn">
     <button class="weui_btn" bindtap='callPhone' type='primary'>电话咨询</button>
     </view>
-      <view class="callbtn">
-    <button class="weui_btn" bindtap='addPhone' type='primary'>添加到手机通讯录</button>
-    </view>
-
-      <view class="callbtn">
-    <button class="weui_btn" open-type='contact' type='warn'>咨询在线客服</button>
-    </view>
+  
 
   </view>
 </view>

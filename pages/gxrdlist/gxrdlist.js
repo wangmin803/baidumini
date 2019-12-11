@@ -9,9 +9,12 @@ Page({
     size: 10,
     loading: false,
     allloaded: false,
-    list: []
+    code:"123",
+    list: [],
+    msg:"123"
+ 
   },
-  a:0,
+
   type:"",
   onLoad: function (options) {
       console.log(options.type);
@@ -36,20 +39,22 @@ Page({
             url: '/pages/gxrd/gxrd'
         });
   },
-  onHide:function () {
-   
-      if(a==1){
-      }else{
-          swan.switchTab({
-              url: '/pages/gxrd/gxrd'
-          });
-      }
 
-  },
   
       goDetail: function (e) {
-  app.goDetail(e.currentTarget.dataset.id,e.currentTarget.dataset.tname);
-a=1;
+ 
+ 
+      swan.navigateTo({
+        url: '../detail/detail?id='+e.currentTarget.dataset.id+'&tname='+e.currentTarget.dataset.tname
+     });
+
+
+
+   
+      
+
+
+
 
   },
 
@@ -97,23 +102,31 @@ a=1;
 
     let d = json_util.mapToJson(util.tokenAndKo(map));
   
-     var url1 = 'https://www.jzn360.com/Manage/News/table.do?limit=12&channelCode='+type+'&page='+this.data.page; 
+     var url1 = 'https://www.jzn360.com/Manage/News/table1.do?limit=12&channelCode='+type+'&page='+this.data.page; 
      var that= this;
      let addList ="";
      let newList ="";
     network_util._post(url1, d, function (res) {
     addList= res.data.data;
+
+    console.log(res.data.msg);
+
     newList = that.data.list.concat(addList);
   if (addList.length < that.data.size) {
           that.setData({
+           code:res.data.code,
+           msg:res.data.msg,
             allloaded: true
           });
         }
             
         that.setData({
+        code:res.data.code,
+          msg:res.data.msg,
           list: newList,
           loading: false,
-          page: that.data.page + 1
+          page: that.data.page + 1,
+         
         });
 
 

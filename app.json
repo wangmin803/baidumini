@@ -6,7 +6,8 @@
         "pages/sbzc/sbzc",
         "pages/gxrd/gxrd",
          "pages/detail/detail",
-        "pages/gxrdlist/gxrdlist"
+        "pages/gxrdlist/gxrdlist",
+        "pages/detail/detail"
 
     ],
     "window": {
