@@ -1,20 +1,9 @@
-<view class='container'>
-  
+<view  class='container'>
   <component-scroll pulldownDistance="100" refreshPulldownText="你再往下拉试试" refreshUndoText="你松开试试" refreshLoadingText="我在努力刷新中~" loadmoreLoadingText="正在从库里捞数据" loadmoreAllloadedText="取之不尽,用之完矣" isNeedLoadmore bind:_loadmore="loadmore" bind:_refresh="refresh" allloaded="{{allloaded}}" isEmpty="{{!loading &&list.length<=0}}">
     <view class='list' >
       <block s-for="item, index in list" s-key="{{index}}">
-       
-
-       
-        <view s-if="{{msg=='no'}}" class='list-item'  data-id="{{item.id}}" data-tname="{{item.newsName}}">{{item.newsName}}</view>     
-          <view s-else class='list-item' bindtap="goDetail" data-id="{{item.id}}" data-tname="{{item.newsName}}">{{item.newsName}}</view>     
- <!--bindtap="goDetail"-->
-      </block>
-              
-    </view>
-
-        
-    
+         <view catchtap="goDetail"  class='list-item' data-channelCode="{{item.channelCode}}" data-id="{{item.id}}" data-tname="{{item.newsName}}">{{item.newsName}} </view>     
+      </block>       
+    </view> 
   </component-scroll>
 </view>
-

@@ -44,15 +44,7 @@ App({
           url: '../gxrd/gxrd'
         });
   },
-      goDetail: function (id,tname) {
 
-
-
-         swan.navigateTo({
-        url: '../detail/detail?id='+id+'&tname='+tname
-     });
-      
-  },
 
         goMoreList: function (type) {
             if(type=='gxrd'){

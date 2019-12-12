@@ -13,6 +13,8 @@
             <text>{{publishDateString}}</text>
           </view>
         </view>
+   
+     
       </view>
 
     </view>
