@@ -3,6 +3,8 @@ var util = require('../../utils/util.js');
 var network_util = require('../../utils/network_util.js');
 var json_util = require('../../utils/json_util.js');
 const app = getApp();
+
+    let type="";
 Page({
     data: {
         page: 0,
@@ -15,7 +17,6 @@ Page({
 
     },
 
-    type: "",
     onLoad: function (options) {
         console.log(options.type);
         type = options.type;
@@ -43,10 +44,10 @@ Page({
 
     goDetail: function (e) {
 
-        //swan.navigateTo({
-          //  url: '../detail/' + e.currentTarget.dataset.channelCode + 'detail?id=' + e.currentTarget.dataset.id + '&tname=' + e.currentTarget.dataset.tname
-       // });
-       console.log("aaaaaa");
+       swan.navigateTo({
+         url: '../detail/' + e.currentTarget.dataset.channel + 'detail?id=' + e.currentTarget.dataset.id + '&tname=' + e.currentTarget.dataset.tname
+       });
+      
 
 
 
