@@ -100,9 +100,29 @@ function _post_json(url, data, success, fail) {
 
   console.log("----end----_post-----");
 }
+function _getnet(url,data) {
+  return new Promise(function (resolve, reject) {
+    swan.request({
+      url: url,
+    data: data,
+      success: (res) => {
+        let result = res.data.data;
+        resolve(result) ;
+      },
+      fail:()=>{
+        reject("系统异常，请重试！")
+      }
+    })
+  })
+   
+}
+
+
+
 module.exports = {
   _get: _get,
   _post: _post,
   _post1: _post1,
-  _post_json: _post_json
+  _post_json: _post_json,
+  _getnet: _getnet
 };

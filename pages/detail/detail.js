@@ -2,6 +2,8 @@
 var util = require('../../utils/util.js');
 var network_util = require('../../utils/network_util.js');
 var json_util = require('../../utils/json_util.js');
+
+
 Page({
     data: {
     id: "",
@@ -25,18 +27,20 @@ Page({
     let d = json_util.mapToJson(util.tokenAndKo(map));
     var url1 = 'https://www.jzn360.com/getnews.do?id='+id; 
     var that= this;
-    network_util._post(url1, d, function (res) {
-    that.setData({      
+  network_util._getnet(url1,d).then((res) => { 
+      console.log(res) ;
+        that.setData({      
     //把引入的数据根据下标对应放到detailObj中
-      id:res.data.data.id,
-      title:res.data.data.newsName,
-      publishDateString:  res.data.data.publishDateString.substring(0,12),
-      newsContent: res.data.data.newsContent,
+      id:res.id,
+      title:res.newsName,
+      publishDateString:  res.publishDateString.substring(0,12),
+      newsContent: res.newsContent,
     })
+      
+      }).catch((res) => { console.log(res) })
 
-    }, function (res) {
-      console.log(res);
-    });
+
+ 
 
   },
     onReady: function() {
@@ -71,4 +75,6 @@ Page({
     onShareAppMessage: function () {
         // 用户点击右上角转发
     }
+
+    
 });
