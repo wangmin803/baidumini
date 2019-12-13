@@ -6,16 +6,12 @@
         "selected": -2
     },
     "editor": {
-        "curPath": "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.swan",
+        "curPath": "D:\\baidumini\\pages\\index\\index.swan",
         "expands": [
             "D:\\baidumini\\pages",
-            "D:\\baidumini\\pages\\gxrdlist",
             "D:\\baidumini\\HEAD",
-            "D:\\baidumini\\component\\component-scroll",
             "D:\\baidumini\\description",
-            "D:\\baidumini\\pages\\detail",
-            "D:\\baidumini\\pages\\index",
-            "D:\\baidumini\\pages\\contactus"
+            "D:\\baidumini\\pages\\index"
         ],
         "markdownUploadTimeMap": {},
         "paths": [
@@ -67,26 +63,26 @@
             "D:\\baidumini\\pages\\detail\\sbzcdetail.swan"
         ],
         "recentlyFiles": [
+            "D:\\baidumini\\pages\\index\\index.swan",
+            "D:\\baidumini\\pages\\index\\index.js",
+            "D:\\baidumini\\pages\\index\\index.css",
+            "D:\\baidumini\\app.json",
+            "D:\\baidumini\\app.js",
             "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.swan",
-            "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.js",
             "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.json",
+            "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.js",
             "D:\\baidumini\\pages\\detail\\sbzcdetail.swan",
+            "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.css",
             "D:\\baidumini\\pages\\detail\\sbzcdetail.json",
             "D:\\baidumini\\pages\\detail\\sbzcdetail.css",
             "D:\\baidumini\\pages\\detail\\gqrddetail.swan",
             "D:\\baidumini\\pages\\detail\\gqrddetail.json",
             "D:\\baidumini\\pages\\detail\\gqrddetail.js",
             "D:\\baidumini\\pages\\contactus\\contactus.js",
-            "D:\\baidumini\\pages\\index\\index.swan",
             "D:\\baidumini\\component\\component-scroll\\index.swan",
             "D:\\baidumini\\pages\\detail\\sbzcdetail.js",
             "D:\\baidumini\\pages\\detail\\detail.json",
-            "D:\\baidumini\\pages\\detail\\detail.swan",
-            "D:\\baidumini\\pages\\detail\\detail.js",
-            "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.css",
-            "D:\\baidumini\\pages\\gxrd\\gxrd.css",
-            "D:\\baidumini\\app.js",
-            "D:\\baidumini\\app.json"
+            "D:\\baidumini\\pages\\detail\\detail.swan"
         ]
     },
     "host": "baiduboxapp",
@@ -94,7 +90,7 @@
         "packageId": 349077
     },
     "publish": {
-        "version": "1.0.24.0"
+        "version": "1.0.26.0"
     },
     "setting": {
         "urlCheck": true
