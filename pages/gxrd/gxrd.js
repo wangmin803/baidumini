@@ -35,7 +35,8 @@ Page({
         // 用户点击右上角转发
     },
     goMoredGxrd: function () {
-        app.goMoreList('gxrd');
+        console.log("aaa");
+        //app.goMoreList('gxrd');
   }
 
 });

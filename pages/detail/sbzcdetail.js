@@ -51,8 +51,8 @@ Page({
 
    swan.setPageInfo({
         title: options.tname,
-        keywords: '山西高新技术企业认定,太原商标注册',
-        description: '山西景铭科技位于太原市,专注于商标注册,高企认定,高新技术企业认定,高新认证咨询,同时是拥有专业网站制作,软件开发团队。',
+        keywords: '山西商标注册,太原商标注册,商标代理',
+        description: '山西景铭科技位于太原市,专注于商标注册,商标查询,商标代理,并提供商标申请咨询,如何申请商标,注册商标哪家好,商标注册,注册商标要多少钱的咨询。',
         image: 'http://www.jzn360.com/shouye.jpg'
      }
     
