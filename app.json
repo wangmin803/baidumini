@@ -8,8 +8,8 @@
          "pages/detail/detail",
         "pages/gxrdlist/gxrdlist",
         "pages/detail/detail",
-               "pages/detail/gqrddetail",
-                              "pages/detail/sbzcdetail"
+        "pages/detail/gqrddetail",
+         "pages/detail/sbzcdetail"
 
     ],
     "window": {
