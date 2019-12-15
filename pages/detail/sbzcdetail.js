@@ -1,4 +1,3 @@
-
 var util = require('../../utils/util.js');
 var network_util = require('../../utils/network_util.js');
 var json_util = require('../../utils/json_util.js');
@@ -19,16 +18,19 @@ Page({
    */
 
   onLoad: function (options) {
-  
-
-    let id=options.id;    
-    let map = new Map();
-    map.set('id',id);
-    let d = json_util.mapToJson(util.tokenAndKo(map));
-    var url1 = 'https://www.jzn360.com/getnews.do?id='+id; 
+    this.setData({
+            id: options.id
+        });
+  },
+    onReady: function() {
+        // 监听页面初次渲染完成的生命周期函数
+    },
+    onShow: function(options) {
+    let d = "";
+    var url1 = 'https://www.jzn360.com/getnews.do?id='+this.data.id; 
     var that= this;
   network_util._getnet(url1,d).then((res) => { 
-      console.log(res) ;
+
         that.setData({      
     //把引入的数据根据下标对应放到detailObj中
       id:res.id,
@@ -36,27 +38,27 @@ Page({
       publishDateString:  res.publishDateString.substring(0,12),
       newsContent: res.newsContent,
     })
-      
-      }).catch((res) => { console.log(res) })
 
-
- 
-
-  },
-    onReady: function() {
-        // 监听页面初次渲染完成的生命周期函数
-    },
-    onShow: function(options) {
-  
-
-   swan.setPageInfo({
-        title: options.tname,
-        keywords: '山西商标注册,太原商标注册,商标代理',
+        swan.setPageInfo({
+      title: that.data.title,
+      keywords: '山西商标注册,太原商标注册,商标代理',
         description: '山西景铭科技位于太原市,专注于商标注册,商标查询,商标代理,并提供商标申请咨询,如何申请商标,注册商标哪家好,商标注册,注册商标要多少钱的咨询。',
         image: 'http://www.jzn360.com/shouye.jpg'
      }
     
    );
+      }).catch((res) => { console.log(res) })
+
+
+
+
+
+
+
+ 
+  
+
+
 
         // 监听页面显示的生命周期函数
     },
