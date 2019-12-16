@@ -1,1 +1,51 @@
-{"appid":"15510259","compilation-args":{"common":{},"options":[],"selected":-2},"editor":{"curPath":"C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\detail.js","expands":["C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\index","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\sbzc","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\component\\component-scroll","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\gxrdlist","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\gxrd","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\utils"],"markdownUploadTimeMap":{},"paths":["C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\gxrdlist\\gxrdlist.swan","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\gxrdlist\\gxrdlist.json","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\gxrdlist\\gxrdlist.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\gqrddetail.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\utils\\json_util.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\detail.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\gqrddetail.css","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\utils\\network_util.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\sbzcdetail.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\detail.swan","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\app.css","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\gqrddetail.swan","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\sbzcdetail.swan","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\sbzc\\sbzc.swan","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\gxrd\\gxrd.swan","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\gxrd\\gxrd.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\gqrddetail.json","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\sbzcdetail.css","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\app.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\app.json","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\detail.json"],"recentlyFiles":["C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\detail.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\gqrddetail.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\utils\\network_util.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\detail.json","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\sbzcdetail.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\gqrddetail.css","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\gqrddetail.json","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\gqrddetail.swan","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\gxrdlist\\gxrdlist.json","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\gxrdlist\\gxrdlist.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\gxrdlist\\gxrdlist.swan","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\detail\\detail.swan","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\gxrd\\gxrd.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\pages\\gxrd\\gxrd.swan","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\app.json","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\app.js","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\app.css","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\sitemap.json","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\README.md","C:\\Users\\Administrator\\Desktop\\a\\baidumini\\project.swan.json"]},"host":"baiduboxapp","preview":{"packageId":349077},"publish":{"version":"2.0.32.1"},"setting":{"urlCheck":true},"swan":{"baiduboxapp":{"extensionJsVersion":"1.7.2","swanJsVersion":"3.120.2"}}}
+{
+    "appid": "15510259",
+    "compilation-args": {
+        "common": {},
+        "options": [],
+        "selected": -2
+    },
+    "editor": {
+        "curPath": "D:\\baidumini\\pages\\sbzc\\sbzc.swan",
+        "expands": [
+            "D:\\baidumini\\pages",
+            "D:\\baidumini\\pages\\sbzc"
+        ],
+        "markdownUploadTimeMap": {},
+        "paths": [
+            "D:\\baidumini\\pages\\detail\\gqrddetail.css",
+            "D:\\baidumini\\pages\\gxrd\\gxrd.swan",
+            "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.swan",
+            "D:\\baidumini\\pages\\sbzc\\sbzc.swan"
+        ],
+        "recentlyFiles": [
+            "D:\\baidumini\\pages\\sbzc\\sbzc.swan",
+            "D:\\baidumini\\pages\\gxrdlist\\gxrdlist.swan",
+            "D:\\baidumini\\pages\\gxrd\\gxrd.swan",
+            "D:\\baidumini\\pages\\gxrd\\gxrd.js",
+            "D:\\baidumini\\pages\\gxrd\\gxrd.json",
+            "D:\\baidumini\\pages\\detail\\sbzcdetail.swan",
+            "D:\\baidumini\\pages\\detail\\detail.swan",
+            "D:\\baidumini\\pages\\detail\\detail.json",
+            "D:\\baidumini\\pages\\detail\\gqrddetail.css",
+            "D:\\baidumini\\pages\\detail\\detail.js",
+            "D:\\baidumini\\pages\\detail\\gqrddetail.js"
+        ]
+    },
+    "host": "baiduboxapp",
+    "preview": {
+        "packageId": 349077
+    },
+    "publish": {
+        "version": "2.0.34.1"
+    },
+    "setting": {
+        "urlCheck": true
+    },
+    "swan": {
+        "baiduboxapp": {
+            "extensionJsVersion": "1.7.2",
+            "swanJsVersion": "3.120.2"
+        }
+    }
+}
