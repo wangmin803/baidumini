@@ -28,6 +28,9 @@ Page({
     onPullDownRefresh: function() {
         // 监听用户下拉动作
     },
+     goContactus: function () {
+    app.goContactus();
+  },
     onReachBottom: function() {
         // 页面上拉触底事件的处理函数
     },

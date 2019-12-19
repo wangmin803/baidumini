@@ -43,6 +43,7 @@ Page({
       title: that.data.title,
       keywords: '山西商标注册,太原商标注册,商标代理',
         description: '山西景铭科技位于太原市,专注于商标注册,商标查询,商标代理,并提供商标申请咨询,如何申请商标,注册商标哪家好,商标注册,注册商标要多少钱的咨询。',
+         articleTitle:that.data.title,
         image: 'http://www.jzn360.com/shouye.jpg'
      }
     

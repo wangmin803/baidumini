@@ -41,9 +41,10 @@ Page({
     })
 
         swan.setPageInfo({
-      title: that.data.title,
+        title: that.data.title,
         keywords: '山西高新技术企业认定,太原高新认证,高企认定',
         description: '山西景铭科技位于太原市,专注于高企认证,高企认定,高新技术企业认定,高新认证咨询,同时提供山西高新技术企业认定条件是什么,时间,成本费用咨询等的全方位咨询服务。',
+       articleTitle:that.data.title,
         image: 'http://www.jzn360.com/shouye.jpg'
      }
     
