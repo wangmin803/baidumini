@@ -16,7 +16,12 @@
       </view>
 
     </view>
-<rich-text class="contentclass" nodes="{{newsContent}}"></rich-text>
+<view tt:if="{{newsContent!=''}}" class='contentclass'>
+  <rich-text class="contentclass" nodes="{{newsContent}}"></rich-text>
+</view>
+<view tt:else class='contentclass'>
+  暂无
+</view>
     
 
 

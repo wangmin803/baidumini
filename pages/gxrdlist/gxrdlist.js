@@ -45,7 +45,7 @@ Page({
     goDetail: function (e) {
 
        swan.navigateTo({
-         url: '../detail/' + e.currentTarget.dataset.channel + 'detail?id=' + e.currentTarget.dataset.id + '&tname=' + e.currentTarget.dataset.tname
+         url: '../detail/' + e.currentTarget.dataset.channel + 'detail?id=' + e.currentTarget.dataset.id
        });
       
 
