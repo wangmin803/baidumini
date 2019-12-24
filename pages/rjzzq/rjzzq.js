@@ -18,19 +18,19 @@ Page({
     onShow: function() {
         // 监听页面显示的生命周期函数
               swan.setPageInfo({
-        title: '山西注册商标,太原商标注册',
-        keywords: '山西注册商标,太原商标注册',
-        description: '山西景铭科技位于太原市,是专业的商标局备案机构,专注于商标注册,注册商标,商标查询服务',
-        image: 'http://www.jzn360.com/sbzc.jpg'
+        title: '山西软件著作权,太原软件著作权,软件著作权申请,软件著作权办理',
+        keywords: '山西软件著作权,太原软件著作权,软件著作权申请,软件著作权办理',
+        description: '山西景铭科技位于太原市,专注于山西软件著作权,太原软件著作权,软件著作权申请,软件著作权办理,软件著作权所需资料及流程等的查询',
+        image: 'http://www.jzn360.com/rjzzq.jpg'
     
     });
-       swan.setNavigationBarTitle({
-          title: "山西注册商标,太原商标注册"
+     swan.setNavigationBarTitle({
+          title: "山西软件著作权,太原软件著作权,软件著作权申请,软件著作权办理"
       })
     },
     
-    goMoredSbzc: function () {
-    app.goMoreList('sbzc');
+    goMoredRjzzq: function () {
+    app.goMoreList('rjzzq');
   },
     onHide: function() {
         // 监听页面隐藏的生命周期函数

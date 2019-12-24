@@ -1,21 +1,21 @@
 {
     "pages": [
-            
         "pages/index/index",
         "pages/contactus/contactus",
         "pages/sbzc/sbzc",
         "pages/gxrd/gxrd",
-         "pages/detail/detail",
+        "pages/detail/detail",
         "pages/gxrdlist/gxrdlist",
         "pages/detail/detail",
         "pages/detail/gqrddetail",
-         "pages/detail/sbzcdetail"
-
+        "pages/detail/sbzcdetail",
+        "pages/rjzzq/rjzzq",
+        "pages/detail/rjzzqdetail"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "山西高新技术企业认定,山西商标注册",
+        "navigationBarTitleText": "山西高新技术企业认定,山西商标注册,山西软件著作权",
         "navigationBarTextStyle": "black"
     },
     "tabBar": {
@@ -43,9 +43,15 @@
                 "text": "高新认定"
             },
             {
+                "pagePath": "pages/rjzzq/rjzzq",
+                "iconPath": "assets/imgs/home.png",
+                "selectedIconPath": "assets/imgs/home_act.png",
+                "text": "软件著作权"
+            },
+            {
                 "pagePath": "pages/contactus/contactus",
-                "iconPath": "assets/imgs/lianxi.png",
-                "selectedIconPath": "assets/imgs/lianxi_act.png",
+                "iconPath": "assets/imgs/home.png",
+                "selectedIconPath": "assets/imgs/home_act.png",
                 "text": "联系我们"
             }
         ]
