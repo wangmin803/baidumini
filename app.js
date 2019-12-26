@@ -47,7 +47,7 @@ App({
 
 
         goMoreList: function (type) {
-            if(type=='gxrd'){
+            if(type=='gqrd'){
                swan.navigateTo({
                         url: '../gxrdlist/gxrdlist?type=gqrd'
                     });``

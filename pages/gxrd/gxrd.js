@@ -42,7 +42,7 @@ Page({
     },
     goMoredGxrd: function () {
        
-        app.goMoreList('gxrd');
+        app.goMoreList('gqrd');
   }
 
 });
