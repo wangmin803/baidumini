@@ -13,10 +13,8 @@
             <text>{{publishDateString}}</text>
           </view>
         </view>
-   
-     
       </view>
-
+ </view>
     </view>
 <view tt:if="{{newsContent!=''}}" class='contentclass'>
   <rich-text class="contentclass" nodes="{{newsContent}}"></rich-text>
