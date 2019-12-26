@@ -16,6 +16,7 @@ Page({
     app.goContactus();
   },
     onShow: function() {
+        app.setNbt('rjzzq');
         // 监听页面显示的生命周期函数
               swan.setPageInfo({
         title: '山西软件著作权,太原软件著作权,软件著作权申请,软件著作权办理',
@@ -24,13 +25,24 @@ Page({
         image: 'http://www.jzn360.com/rjzzq.jpg'
     
     });
-     swan.setNavigationBarTitle({
-          title: "山西软件著作权,太原软件著作权,软件著作权申请,软件著作权办理"
-      })
+   
     },
     
     goMoredRjzzq: function () {
     app.goMoreList('rjzzq');
+  },
+
+   ruanzhubanli: function () {
+    app.goMoreList('ruanzhubanli');
+  },
+     ruanzhudaiban: function () {
+    app.goMoreList('ruanzhudaiban');
+  },
+     ruanzhushenqing: function () {
+    app.goMoreList('ruanzhushenqing');
+  },
+     ruanzhujiaji: function () {
+    app.goMoreList('ruanzhujiaji');
   },
     onHide: function() {
         // 监听页面隐藏的生命周期函数

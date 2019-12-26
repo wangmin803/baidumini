@@ -47,25 +47,41 @@ App({
 
 
         goMoreList: function (type) {
-            if(type=='gqrd'){
+          
                swan.navigateTo({
-                        url: '../gxrdlist/gxrdlist?type=gqrd'
+                        url: '../gxrdlist/gxrdlist?type='+type
                     });``
-            }
-              if(type=='sbzc'){
-               swan.navigateTo({
-                        url: '../gxrdlist/gxrdlist?type=sbzc'
-                    });``
-            }
-                if(type=='rjzzq'){
-               swan.navigateTo({
-                        url: '../gxrdlist/gxrdlist?type=rjzzq'
-                    });``
-            }
+        
        
-  }
+  },
+     setNbt: function (type) {
+                if(type=='gqrd'){
+                            swan.setNavigationBarTitle({
+                                title: "山西高新技术企业认定,太原高企认证"
+                            })
+                    }
+                        else if(type=='sbzc'){
+                            swan.setNavigationBarTitle({
+                                title: "山西商标注册,太原商标注册"
+                            })
+                    }
+                        else if(type=='rjzzq'){
+                            swan.setNavigationBarTitle({
+                                title: "山西软件著作权,太原软件著作权,软件著作权申请,软件著作权办理"
+                            })
+                    }   else if(type=='all'){
+                            swan.setNavigationBarTitle({
+                                title: "山西高新技术企业认定,太原软件著作权,商标注册"
+                            })
+                    }
+                    
+                    else {
+                            swan.setNavigationBarTitle({
+                                title: "山西软件著作权,太原软件著作权,软件著作权申请,软件著作权办理"
+                            })
+                    }
 
-  
+     }
 
 
 });

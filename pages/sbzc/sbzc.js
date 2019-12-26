@@ -24,9 +24,8 @@ Page({
         image: 'http://www.jzn360.com/sbzc.jpg'
     
     });
-       swan.setNavigationBarTitle({
-          title: "山西注册商标,太原商标注册"
-      })
+
+        app.setNbt('sbzc');
     },
     
     goMoredSbzc: function () {

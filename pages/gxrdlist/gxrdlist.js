@@ -26,6 +26,10 @@ Page({
     },
 
     onShow() {
+        app.setNbt(type);
+     
+      
+
         this.getList();
         swan.setPageInfo({
             title: '山西高新技术企业认定,太原商标注册',
@@ -35,6 +39,8 @@ Page({
         }
 
         );
+        
+     
 
     },
     onUnload: function () {
@@ -47,9 +53,19 @@ Page({
 
     goDetail: function (e) {
 
-       swan.navigateTo({
-         url: '../detail/' + e.currentTarget.dataset.channel + 'detail?id=' + e.currentTarget.dataset.id
-       });
+        if(e.currentTarget.dataset.channel=='ruanzhujiaji'||e.currentTarget.dataset.channel=='ruanzhushenqing'||e.currentTarget.dataset.channel=='ruanzhudaiban'||e.currentTarget.dataset.channel=='ruanzhubanli'){
+            swan.navigateTo({
+                url: '../detail/' + e.currentTarget.dataset.channel + '/'+ e.currentTarget.dataset.channel+'?id=' + e.currentTarget.dataset.id
+            });
+
+        }else{
+            swan.navigateTo({
+                url: '../detail/' + e.currentTarget.dataset.channel + 'detail?id=' + e.currentTarget.dataset.id
+            });
+        }
+
+
+     
       
 
 

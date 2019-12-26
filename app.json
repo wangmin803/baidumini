@@ -9,7 +9,11 @@
         "pages/detail/gqrddetail",
         "pages/detail/sbzcdetail",
         "pages/rjzzq/rjzzq",
-        "pages/detail/rjzzqdetail"
+        "pages/detail/rjzzqdetail",
+        "pages/detail/ruanzhujiaji/ruanzhujiaji",
+         "pages/detail/ruanzhudaiban/ruanzhudaibanl",
+           "pages/detail/ruanzhushenqing/ruanzhushenqing",
+        "pages/detail/ruanzhubanli/ruanzhubanli"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -31,26 +35,26 @@
             },
             {
                 "pagePath": "pages/sbzc/sbzc",
-                "iconPath": "assets/imgs/home.png",
-                "selectedIconPath": "assets/imgs/home_act.png",
+                "iconPath": "assets/imgs/component.png",
+                "selectedIconPath": "assets/imgs/component_act.png",
                 "text": "商标注册"
             },
             {
                 "pagePath": "pages/gxrd/gxrd",
-                "iconPath": "assets/imgs/home.png",
-                "selectedIconPath": "assets/imgs/home_act.png",
+                "iconPath": "assets/imgs/product.png",
+                "selectedIconPath": "assets/imgs/product_act.png",
                 "text": "高新认定"
             },
             {
                 "pagePath": "pages/rjzzq/rjzzq",
-                "iconPath": "assets/imgs/home.png",
-                "selectedIconPath": "assets/imgs/home_act.png",
+                "iconPath": "assets/imgs/copy.png",
+                "selectedIconPath": "assets/imgs/copy_act.png",
                 "text": "软件著作权"
             },
             {
                 "pagePath": "pages/contactus/contactus",
-                "iconPath": "assets/imgs/home.png",
-                "selectedIconPath": "assets/imgs/home_act.png",
+                "iconPath": "assets/imgs/atm.png",
+                "selectedIconPath": "assets/imgs/atm_act.png",
                 "text": "联系我们"
             }
         ]

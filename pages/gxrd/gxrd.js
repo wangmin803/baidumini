@@ -18,9 +18,8 @@ Page({
         description: '山西景铭科技位于太原市,是专业的高新认定辅导咨询机构,免费提供高新技术企业的认定工作',
         image: 'http://www.jzn360.com/gxrd.jpg'
         });
-           swan.setNavigationBarTitle({
-          title: "山西高新技术企业认定,太原高新认定"
-      })
+      
+        app.setNbt('gqrd');
     },
     onHide: function() {
         // 监听页面隐藏的生命周期函数
