@@ -12,13 +12,13 @@
                         <view class="weui-media-box__desc" catchtap="goContactus">正规的商标局备案机构。</view>
                     </view>
                 </view>
-         <view  class="weui-media-box weui-media-box_appmsg"  catchtap="goSbzc">
-                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg" catchtap="goSbzc">
-                     <image class="weui-media-box__thumb" src="../../assets/imgs/fwh.jpg"  catchtap="goSbzc"/>
+         <view  class="weui-media-box weui-media-box_appmsg"  catchtap="goContactus">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg" catchtap="goContactus">
+                     <image class="weui-media-box__thumb" src="../../assets/imgs/fwh.jpg"  catchtap="goContactus"/>
                     </view>
-                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg" catchtap="goSbzc">
-                        <view class="weui-media-box__title" catchtap="goSbzc">专业查询</view>
-                        <view class="weui-media-box__desc" catchtap="goSbzc">免费查询商标近似</view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg" catchtap="goContactus">
+                        <view class="weui-media-box__title" catchtap="goContactus">专业查询</view>
+                        <view class="weui-media-box__desc" catchtap="goContactus">免费查询商标近似</view>
                     </view>
              </view>
               

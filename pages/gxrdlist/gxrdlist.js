@@ -43,12 +43,7 @@ Page({
      
 
     },
-    onUnload: function () {
-
-        swan.switchTab({
-            url: '/pages/gxrd/gxrd'
-        });
-    },
+ 
 
 
     goDetail: function (e) {
@@ -122,7 +117,7 @@ Page({
 
                 let d = json_util.mapToJson(util.tokenAndKo(map));
 
-                var url1 = 'https://www.jzn360.com/Manage/News/table1.do?limit=22&channelCode=' + type + '&page=' + this.data.page;
+                var url1 = 'https://www.jzn360.com/Manage/News/table1.do?limit=12&channelCode=' + type + '&page=' + this.data.page;
                 var that = this;
                 let addList = "";
                 let newList = "";
