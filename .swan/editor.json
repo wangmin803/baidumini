@@ -1,8 +1,10 @@
 {
     "editor": {
-        "curPath": "D:\\work\\baidumini\\pages\\gxrdlist\\gxrdlist.js",
+        "curPath": "D:\\work\\baidumini\\pages\\gxrdlist\\gxrdlist.swan",
         "expands": [
             "D:\\work\\baidumini\\pages",
+            "D:\\work\\baidumini\\pages\\rjzzq",
+            "D:\\work\\baidumini\\component\\component-scroll",
             "D:\\work\\baidumini\\pages\\gxrdlist"
         ],
         "markdownUploadTimeMap": {},
@@ -16,20 +18,40 @@
             "D:\\work\\baidumini\\pages\\rjzzq\\rjzzq.json",
             "D:\\work\\baidumini\\pages\\gxrdlist\\gxrdlist.js",
             "D:\\work\\baidumini\\pages\\gxrdlist\\gxrdlist.swan",
-            "D:\\work\\baidumini\\pages\\gxrdlist\\gxrdlist.json"
+            "D:\\work\\baidumini\\pages\\gxrdlist\\gxrdlist.json",
+            "D:\\work\\baidumini\\pages\\detail\\sbzcdetail.swan",
+            "D:\\work\\baidumini\\pages\\detail\\rjzzqdetail.swan",
+            "D:\\work\\baidumini\\pages\\detail\\gqrddetail.swan",
+            "D:\\work\\baidumini\\pages\\detail\\detail.swan",
+            "D:\\work\\baidumini\\pages\\detail\\ruanzhushenqing\\ruanzhushenqing.swan",
+            "D:\\work\\baidumini\\pages\\detail\\ruanzhujiaji\\ruanzhujiaji.swan",
+            "D:\\work\\baidumini\\pages\\detail\\ruanzhudaiban\\ruanzhudaiban.swan",
+            "D:\\work\\baidumini\\pages\\detail\\ruanzhubanli\\ruanzhubanli.swan",
+            "D:\\work\\baidumini\\pages\\detail\\ruanzhubanli\\ruanzhubanli.js",
+            "D:\\work\\baidumini\\component\\component-scroll\\index.swan",
+            "D:\\work\\baidumini\\pages\\rjzzq\\rjzzq.css"
         ],
         "recentlyFiles": [
-            "D:\\work\\baidumini\\pages\\gxrdlist\\gxrdlist.js",
             "D:\\work\\baidumini\\pages\\gxrdlist\\gxrdlist.swan",
-            "D:\\work\\baidumini\\pages\\sbzc\\sbzc.swan",
             "D:\\work\\baidumini\\pages\\gxrdlist\\gxrdlist.json",
-            "D:\\work\\baidumini\\pages\\index\\index.swan",
-            "D:\\work\\baidumini\\pages\\rjzzq\\rjzzq.js",
-            "D:\\work\\baidumini\\pages\\rjzzq\\rjzzq.json",
+            "D:\\work\\baidumini\\pages\\gxrdlist\\gxrdlist.js",
             "D:\\work\\baidumini\\pages\\rjzzq\\rjzzq.swan",
-            "D:\\work\\baidumini\\pages\\index\\index.js",
-            "D:\\work\\baidumini\\pages\\gxrd\\gxrd.js",
-            "D:\\work\\baidumini\\pages\\gxrd\\gxrd.swan"
+            "D:\\work\\baidumini\\pages\\rjzzq\\rjzzq.css",
+            "D:\\work\\baidumini\\pages\\rjzzq\\rjzzq.json",
+            "D:\\work\\baidumini\\component\\component-scroll\\index.swan",
+            "D:\\work\\baidumini\\pages\\detail\\ruanzhujiaji\\ruanzhujiaji.swan",
+            "D:\\work\\baidumini\\component\\component-scroll\\index.json",
+            "D:\\work\\baidumini\\component\\component-scroll\\index.js",
+            "D:\\work\\baidumini\\pages\\detail\\ruanzhushenqing\\ruanzhushenqing.swan",
+            "D:\\work\\baidumini\\pages\\detail\\rjzzqdetail.swan",
+            "D:\\work\\baidumini\\pages\\detail\\rjzzqdetail.json",
+            "D:\\work\\baidumini\\pages\\detail\\rjzzqdetail.css",
+            "D:\\work\\baidumini\\pages\\detail\\rjzzqdetail.js",
+            "D:\\work\\baidumini\\pages\\detail\\sbzcdetail.swan",
+            "D:\\work\\baidumini\\pages\\sbzc\\sbzc.swan",
+            "D:\\work\\baidumini\\pages\\detail\\detail.swan",
+            "D:\\work\\baidumini\\pages\\detail\\ruanzhubanli\\ruanzhubanli.swan",
+            "D:\\work\\baidumini\\pages\\detail\\ruanzhudaiban\\ruanzhudaiban.swan"
         ]
     }
 }
