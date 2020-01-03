@@ -19,9 +19,7 @@
 <view s-if="{{newsContent!=''}}" class='contentclass'>
   <rich-text class="contentclass" nodes="{{newsContent}}"></rich-text>
 </view>
-<view s-else class='contentclass'>
-  暂无
-</view>
+
 
 
 
